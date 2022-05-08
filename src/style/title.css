@@ -1,0 +1,38 @@
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+#value-display {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: opacity .5s;
+    width: 311px;
+    text-align: center;
+}
+
+#title-input {
+    display: none;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    height: 32px;
+    overflow: hidden;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    border-radius: 3px;
+    padding: 0 5.8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: opacity .5s;
+    min-width: 50px;
+    max-width: 300px;
+}
